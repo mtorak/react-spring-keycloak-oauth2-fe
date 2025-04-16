@@ -19,7 +19,7 @@ const Cards = () => {
                     await keycloak.updateToken();
                     const req = await fetch("http://localhost:1291/cards", {
                         headers: {
-                            ["Authorization"]: 'Bearer ${keycloak.token}'
+                            ["Authorization"]: `Bearer ${keycloak.token}`
                         }
                     });
 
