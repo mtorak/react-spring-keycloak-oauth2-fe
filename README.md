@@ -2,6 +2,9 @@
 
 https://medium.com/@codeching/integrate-keycloak-oauth-2-0-449d5977ed99
 
+`nvm use 18`
+`npm run dev`
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
