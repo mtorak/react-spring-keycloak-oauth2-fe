@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 type Card = {
     name: string,
     color: string,
-    price: number
+    experience: number
 };
 
 const Cards = () => {
@@ -39,7 +39,7 @@ const Cards = () => {
                 {cards.map((card) => (
                     <div key={card.name} style={{ padding: "10px", marginBottom: "20px" }}>
                         <span>
-                            {card.name} - {card.color} | price: {card.price}
+                            {card.name} - {card.color} | experience: {card.experience}
                         </span>
                     </div>
                 ))}
